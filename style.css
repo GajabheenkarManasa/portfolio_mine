@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Orbitron:wght@800&family=Poppins:ital,wght@0,500;1,300&family=Roboto:wght@300;400&display=swap');
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: justify;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+.hello{
+    color: rgb(214, 141, 5);
+    background: none !important;
+}
+.intro, .navbar-brand{
+    background: none !important;
+}
+.bannerBgImage{
+    margin-top: 10px;
+    height: 100vh;
+    background: url("images/Laptop.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background: none !important;
+}
+h5{
+    color: rgb(221, 92, 45) !important;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+}
+span{
+    color: yellowgreen;
+}
+
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+}
+
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid{
+    border-radius: 50%;
+    border: 2px solid rgb(82, 46, 165);
+}
+.img-fluid:hover{
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+}
+.card-img-top{
+    height: 50vh;
+}
